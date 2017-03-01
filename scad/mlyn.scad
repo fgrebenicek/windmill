@@ -29,9 +29,11 @@ module budova(vyska,sirka,strecha,presah) {
   polomer = sirka/2;
   difference() {
     color(bkamen) cylinder(vyska,polomer,polomer);
-    rotate(-45, [0,0,1]) translate([0,polomer-0.5,1.5]) okno(0.5,1.1);
-    rotate(-45, [0,0,1]) translate([0,polomer-0.5,3.8]) okno(0.5,1.1);
-    rotate(-135, [0,0,1]) translate([0,polomer-0.5,0.1]) dvere(1.3,2.3);
+    rotate(-60, [0,0,1]) translate([0,polomer-0.5,1.4]) okno(0.53,1.25);
+    rotate(-60, [0,0,1]) translate([0,polomer-0.5,4.3]) okno(0.53,1.25);
+    rotate(-30, [0,0,1]) translate([0,polomer-0.5,6.9]) okno(0.53,0.53);
+    rotate(-135, [0,0,1]) translate([0,polomer-0.5,0.1]) dvere(1.4,2.4);
+    rotate(0, [0,0,1]) translate([0,polomer-0.5,0.1]) dvere(1.4,2.4);
   }
   color(bdrevo)
     translate([0,0,vyska])
