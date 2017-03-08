@@ -27,11 +27,22 @@ module dvere(sirka, vyska, hloubka=1) {
 
 module budova(vyska,sirka,strecha,presah) {
   polomer = sirka/2;
+  wokno = 0.53;
+  hokno = 1.25;
   difference() {
     color(bkamen) cylinder(vyska,polomer,polomer);
-    rotate(-60, [0,0,1]) translate([0,polomer-0.5,1.4]) okno(0.53,1.25);
-    rotate(-60, [0,0,1]) translate([0,polomer-0.5,4.3]) okno(0.53,1.25);
-    rotate(-30, [0,0,1]) translate([0,polomer-0.5,6.9]) okno(0.53,0.53);
+    // Velka okna
+    for (a = [0,180]) {
+      rotate(a-60, [0,0,1]) translate([0,polomer-0.5,1.4]) okno(wokno,hokno);
+    }
+    for (a = [0,105,180,285]) {
+      rotate(a-60, [0,0,1]) translate([0,polomer-0.5,4.3]) okno(wokno,hokno);
+    }
+    // Mala okna
+    for (a = [0,180]) {
+      rotate(a-30, [0,0,1]) translate([0,polomer-0.5,6.9]) okno(wokno,wokno);
+    }
+    // Dvere
     rotate(-135, [0,0,1]) translate([0,polomer-0.5,0.1]) dvere(1.4,2.4);
     rotate(0, [0,0,1]) translate([0,polomer-0.5,0.1]) dvere(1.4,2.4);
   }
