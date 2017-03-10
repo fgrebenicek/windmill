@@ -27,24 +27,26 @@ module dvere(sirka, vyska, hloubka=1) {
 
 module budova(vyska,sirka,strecha,presah) {
   polomer = sirka/2;
-  wokno = 0.53;
+  wokno = 0.55;
   hokno = 1.25;
+  wstena = 0.6;
   difference() {
     color(bkamen) cylinder(vyska,polomer,polomer);
     // Velka okna
     for (a = [0,180]) {
-      rotate(a-60, [0,0,1]) translate([0,polomer-0.5,1.4]) okno(wokno,hokno);
+      rotate(a-60, [0,0,1]) translate([0,polomer-wstena,1.4]) okno(wokno,hokno);
     }
     for (a = [0,105,180,285]) {
-      rotate(a-60, [0,0,1]) translate([0,polomer-0.5,4.3]) okno(wokno,hokno);
+      rotate(a-60, [0,0,1]) translate([0,polomer-wstena,4.3]) okno(wokno,hokno);
     }
     // Mala okna
     for (a = [0,180]) {
-      rotate(a-30, [0,0,1]) translate([0,polomer-0.5,6.9]) okno(wokno,wokno);
+      rotate(a-30, [0,0,1]) translate([0,polomer-wstena,6.9]) okno(wokno,wokno);
     }
     // Dvere
-    rotate(-135, [0,0,1]) translate([0,polomer-0.5,0.1]) dvere(1.4,2.4);
-    rotate(0, [0,0,1]) translate([0,polomer-0.5,0.1]) dvere(1.4,2.4);
+    for (a = [0,-135]) {
+      rotate(a, [0,0,1]) translate([0,polomer-wstena,0.1]) dvere(1.5,2.45);
+    }
   }
   color(bdrevo)
     translate([0,0,vyska])
@@ -53,6 +55,6 @@ module budova(vyska,sirka,strecha,presah) {
     budka(1.0,1.6,3,polomer-3+presah/2,vyska);
 }
 
-budova(8,7.5,3,0.3);
+budova(8,7.5,3.4,0.3);
 // translate([3,-0.5,8]) cube([2,1,1]);
 
