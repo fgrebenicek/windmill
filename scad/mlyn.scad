@@ -9,9 +9,17 @@ module strecha(vyska, hloubka) {
   polygon(points=[[-vyska,0],[vyska,0],[0,vyska]]);
 }
 
-module budka(vyska, sirka, hloubka, dx, dz) {
-  translate([dx,-sirka/2,dz]) cube([hloubka,sirka,vyska]);
-  translate([dx,0,dz+vyska]) strecha(sirka/2,hloubka);
+module budka(vyska, sirka, hloubka, dx, dz, presah=0.2) {
+  v2 = vyska/2;
+  sirkax = sirka-2*presah;
+  translate([dx,-sirkax/2,dz]) cube([hloubka,sirkax,v2]);
+  translate([dx+presah,0,dz+v2]) strecha(sirka/2,hloubka);
+}
+
+module budkaDira(vyska, sirka, hloubka, dx, dz, presah=0.2) {
+  v2 = vyska/2;
+  sirkax = sirka-2*presah;
+  translate([dx,-sirkax/2,dz]) cube([hloubka,sirkax,v2]);
 }
 
 module okno(sirka, vyska, hloubka=1) {
@@ -48,11 +56,11 @@ module budova(vyska,sirka,strecha,presah) {
       rotate(a, [0,0,1]) translate([0,polomer-wstena,0.1]) dvere(1.5,2.45);
     }
   }
-  color(bdrevo)
-    translate([0,0,vyska])
-    cylinder(strecha,polomer+presah,0);
-  color(bdrevo) 
-    budka(1.0,1.6,3,polomer-3+presah/2,vyska);
+  difference() {
+	color(bdrevo) translate([0,0,vyska]) cylinder(strecha,polomer+presah,0);
+	budkaDira(2.0,2.0,3,polomer-3+presah,vyska-0.1);
+  }
+  color(bdrevo) budka(2.0,2.0,3,polomer-3,vyska);
 }
 
 budova(8,7.5,3.4,0.3);

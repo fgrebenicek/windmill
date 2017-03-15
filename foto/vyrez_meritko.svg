@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="453.87133"
-     inkscape:cy="476.11573"
+     inkscape:zoom="1.4"
+     inkscape:cx="4310.5925"
+     inkscape:cy="551.28727"
      inkscape:document-units="cm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -96,7 +96,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -143,5 +143,12 @@
          id="tspan5448"
          x="-572.05884"
          y="668.97278">8 m</tspan></text>
+    <image
+       y="100.46734"
+       x="873.91138"
+       id="image3095"
+       xlink:href="file:///home/fgrebenicek/Pictures/windmill/foto/okolokolem.jpg"
+       height="711.80707"
+       width="4444.585" />
   </g>
 </svg>
