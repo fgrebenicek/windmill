@@ -63,6 +63,26 @@ module budova(vyska,sirka,strecha,presah) {
   color(bdrevo) budka(2.0,2.0,3,polomer-3,vyska);
 }
 
+module lopata(delka, sirkaA, sirkaB, tloustka=0.1) {
+  linear_extrude(height=tloustka) 
+  polygon(points=[[-sirkaA/2,-delka],[sirkaA/2,-delka],[sirkaB/2,0], [-sirkaB/2,0]]);
+}
+
+module vrtule(polomer, tram=0.2) {
+  delkaLopaty = 6;
+  for (a = [0,90,180,270]) {
+    rotate(a, [0,0,1]) rotate(-10, [0,1,0]) translate([0,delkaLopaty-polomer,0]) lopata(delkaLopaty,2.8,1.8);
+    rotate(a, [0,0,1]) translate([-tram/2,-polomer-tram, 0]) cube([tram,polomer+tram,tram]);
+  }
+}
+
+module hridel(natoceni=30) {
+  polomer = 0.2;
+  vyska   = 8.5;
+  color(bdrevo) translate([1.25,0,vyska]) rotate(90, [0,1,0]) cylinder(3.75,polomer,polomer);
+  translate([4.6,0,vyska]) rotate(natoceni, [1,0,0]) rotate(90, [0,1,0]) vrtule(8);
+}
+
 budova(8,7.5,3.4,0.3);
-// translate([3,-0.5,8]) cube([2,1,1]);
+hridel();
 

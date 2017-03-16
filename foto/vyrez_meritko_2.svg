@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="757.00084"
-     inkscape:cy="438.13811"
+     inkscape:zoom="1.4"
+     inkscape:cx="325.51312"
+     inkscape:cy="516.15861"
      inkscape:document-units="cm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -187,7 +187,7 @@
        sodipodi:cy="566.64789"
        sodipodi:rx="137.14285"
        sodipodi:ry="137.14285"
-       d="m 550,566.64789 a 137.14285,137.14285 0 1 1 -274.28571,0 137.14285,137.14285 0 1 1 274.28571,0 z"
+       d="m 550,566.64789 c 0,75.7419 -61.40095,137.14285 -137.14285,137.14285 -75.74191,0 -137.14286,-61.40095 -137.14286,-137.14285 0,-75.74191 61.40095,-137.14285 137.14286,-137.14285 75.7419,0 137.14285,61.40094 137.14285,137.14285 z"
        transform="translate(0,344.85583)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -203,5 +203,25 @@
        inkscape:connector-curvature="0"
        transform="translate(0,-0.00130762)"
        sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3838"
+       sodipodi:cx="270"
+       sodipodi:cy="395.21933"
+       sodipodi:rx="207.14285"
+       sodipodi:ry="270"
+       d="m 477.14285,395.21933 a 207.14285,270 0 1 1 -414.285703,0 207.14285,270 0 1 1 414.285703,0 z"
+       transform="translate(0,-0.00130762)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3840"
+       sodipodi:cx="271.42856"
+       sodipodi:cy="394.50504"
+       sodipodi:rx="46.42857"
+       sodipodi:ry="75.714287"
+       d="m 317.85713,394.50504 a 46.42857,75.714287 0 1 1 -92.85714,0 46.42857,75.714287 0 1 1 92.85714,0 z"
+       transform="translate(0,-0.00130762)" />
   </g>
 </svg>
