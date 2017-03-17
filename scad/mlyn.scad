@@ -83,6 +83,17 @@ module hridel(natoceni=30) {
   translate([4.6,0,vyska]) rotate(natoceni, [1,0,0]) rotate(90, [0,1,0]) vrtule(8);
 }
 
+module praporek(vyska,sirka,tloustka=0.01,tycka=0.04) {
+  v2 = vyska/2;
+  s2 = sirka*0.707;
+  translate([0,0,11.8]) rotate(180, [0,0,1])
+  union() {
+    rotate(90, [1,0,0]) 
+      linear_extrude(height=tloustka) polygon(points=[[0,-v2], [0,v2], [sirka,v2], [s2,0], [sirka,-v2]]);
+    translate([0,0,-1.5*vyska]) cylinder(2*vyska,tycka,tycka,$fn=32);
+  }
+}
+
 budova(8,7.5,3.4,0.3);
 hridel(30+360*$t);
-
+praporek(0.3,0.6);
