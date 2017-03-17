@@ -84,5 +84,5 @@ module hridel(natoceni=30) {
 }
 
 budova(8,7.5,3.4,0.3);
-hridel();
+hridel(30+360*$t);
 
