@@ -33,7 +33,7 @@ module dvere(sirka, vyska, hloubka=1) {
   }
 }
 
-module budova(vyska,sirka,strecha,presah) {
+module budova(vyska,sirka) {
   polomer = sirka/2;
   wokno = 0.55;
   hokno = 1.25;
@@ -56,6 +56,10 @@ module budova(vyska,sirka,strecha,presah) {
       rotate(a, [0,0,1]) translate([0,polomer-wstena,0.1]) dvere(1.5,2.45);
     }
   }
+}
+
+module strechaCela(vyska,sirka,strecha,presah) {
+  polomer = sirka/2;
   difference() {
 	color(bdrevo) translate([0,0,vyska]) cylinder(strecha,polomer+presah,0);
 	budkaDira(2.0,2.0,3,polomer-3+presah,vyska-0.1);
@@ -94,6 +98,13 @@ module praporek(vyska,sirka,tloustka=0.01,tycka=0.04) {
   }
 }
 
-budova(8,7.5,3.4,0.3);
-hridel(30+360*$t);
+vyskaBudovy = 8;
+prumerBudovy = 7.5;
+vyskaStrechy = 3.4;
+presahStrechy = 0.3;
+
+budova(vyskaBudovy,prumerBudovy);
+strechaCela(vyskaBudovy,prumerBudovy,vyskaStrechy,presahStrechy);
 praporek(0.3,0.6);
+hridel(30+360*$t);
+
