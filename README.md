@@ -7,7 +7,7 @@
 
 ## Expected Workflow
 
-1. Took photos of real windmill and transform them to given scale. (Done)
+1. Take photos of real windmill and transform them to given scale. (Done)
 2. Create plain 3D model in OpenSCAD. (Almost done)
 3. Export all parts of model to STL format.
 4. Import all parts to Blender. Possibly do small adjustements and apply textures.
