@@ -83,7 +83,7 @@
          transform="matrix(0,1,-1,0,0,0)"
          width="216.22379"
          height="136.22099"
-         xlink:href="file:///home/fgrebenicek/Pictures/windmill/foto/kamen_tx.png"
+         xlink:href="../foto/kamen_tx.png"
          id="image4088"
          x="0"
          y="-136.22099" />
@@ -982,7 +982,7 @@
      y="-45.868774"
      x="139.19632"
      id="image3245"
-     xlink:href="file:///home/fgrebenicek/Pictures/windmill/foto/futro.png"
+     xlink:href="../foto/futro.png"
      height="5.8182669"
      width="18.883848"
      transform="matrix(-0.02145914,0.99976973,-0.99976973,-0.02145914,0,0)" />
@@ -990,7 +990,7 @@
      transform="matrix(0,1,-1,0,0,0)"
      width="19.037666"
      height="5.8656592"
-     xlink:href="file:///home/fgrebenicek/Pictures/windmill/foto/futro.png"
+     xlink:href="../foto/futro.png"
      id="image3248"
      x="228.13728"
      y="-42.716625" />
