@@ -161,7 +161,7 @@
          id="image3074"
          height="1024"
          width="1024"
-         xlink:href="/home/fgrebenicek/Pictures/windmill/svg/../foto/strecha_kolo.png"
+         xlink:href="../foto/strecha_kolo.png"
          sodipodi:absref="/home/fgrebenicek/Pictures/windmill/svg/../foto/strecha_kolo.png" />
     </pattern>
     <pattern
@@ -176,7 +176,7 @@
          id="image4668"
          height="256"
          width="256"
-         xlink:href="/home/fgrebenicek/Pictures/windmill/svg/../foto/strecha_tx.png"
+         xlink:href="../foto/strecha_tx.png"
          sodipodi:absref="/home/fgrebenicek/Pictures/windmill/svg/../foto/strecha_tx.png" />
     </pattern>
     <marker
