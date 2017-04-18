@@ -24,15 +24,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1383"
-     inkscape:window-height="878"
+     inkscape:window-width="1863"
+     inkscape:window-height="1058"
      id="namedview40"
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.83236749"
-     inkscape:cx="508.87397"
-     inkscape:cy="243.95029"
+     inkscape:zoom="3.32947"
+     inkscape:cx="456.06523"
+     inkscape:cy="407.89487"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -166,13 +166,13 @@
        width="1024"
        patternUnits="userSpaceOnUse">
       <image
-         sodipodi:absref="/home/frantisek/Pictures/windmill/svg/../foto/strecha_kolo.png"
+         sodipodi:absref="/home/fgrebenicek/Pictures/windmill/svg/../foto/strecha_kolo.png"
          xlink:href="../foto/strecha_kolo.png"
-         width="1024"
-         height="1024"
-         id="image3074"
+         y="-1.1368684e-13"
          x="0"
-         y="-1.1368684e-13" />
+         id="image3074"
+         height="1024"
+         width="1024" />
     </pattern>
     <pattern
        id="pattern4671"
@@ -181,13 +181,13 @@
        width="256"
        patternUnits="userSpaceOnUse">
       <image
-         sodipodi:absref="/home/frantisek/Pictures/windmill/svg/../foto/strecha_tx.png"
+         sodipodi:absref="/home/fgrebenicek/Pictures/windmill/svg/../foto/strecha_tx.png"
          xlink:href="../foto/strecha_tx.png"
-         width="256"
-         height="256"
-         id="image4668"
+         y="0"
          x="0"
-         y="0" />
+         id="image4668"
+         height="256"
+         width="256" />
     </pattern>
     <marker
        style="overflow:visible"
@@ -2016,5 +2016,19 @@
            style="color:#000000;fill:none;stroke:#984f31;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       </g>
     </g>
+  </g>
+  <g
+     id="g4093">
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path2992"
+       d="m 119.07133,189.26528 1.76389,1.47285 -1.76389,1.48166 7.12611,0 0.0176,0 5.99723,0 -1.76389,-1.48166 1.76389,-1.47285 -5.99723,0 -0.0176,0 z"
+       style="color:#000000;fill:#a47663;fill-opacity:1;stroke:#000000;stroke-width:0.18000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4091"
+       d="m 125.64182,189.1953 0,3.00916"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:0.1763889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.70555559, 0.3527778, 0.1763889, 0.3527778;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
 </svg>
