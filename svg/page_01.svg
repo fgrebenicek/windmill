@@ -152,12 +152,12 @@
       <image
          sodipodi:absref="/home/frantisek/Pictures/windmill/svg/../foto/kamen_tx.png"
          xlink:href="../foto/kamen_tx.png"
-         transform="matrix(0,1,-1,0,0,0)"
-         width="216.22379"
-         height="136.22099"
-         id="image4088"
+         y="-136.22099"
          x="0"
-         y="-136.22099" />
+         id="image4088"
+         height="136.22099"
+         width="216.22379"
+         transform="matrix(0,1,-1,0,0,0)" />
     </pattern>
     <pattern
        patternUnits="userSpaceOnUse"
@@ -168,11 +168,11 @@
       <image
          sodipodi:absref="/home/frantisek/Pictures/windmill/svg/../foto/grass_tx.png"
          xlink:href="../foto/grass_tx.png"
-         width="256"
-         height="256"
-         id="image8611"
+         y="0"
          x="-1.1368684e-13"
-         y="0" />
+         id="image8611"
+         height="256"
+         width="256" />
     </pattern>
   </defs>
   <sodipodi:namedview
@@ -193,9 +193,9 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-global="false"
-     inkscape:zoom="1.2634269"
-     inkscape:cx="462.54582"
-     inkscape:cy="317.54241"
+     inkscape:zoom="0.63171345"
+     inkscape:cx="325.24713"
+     inkscape:cy="511.37337"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -214,10 +214,6 @@
        spacingx="2mm"
        spacingy="2mm"
        dotted="true" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="755.27963,877.28849"
-       id="guide6068" />
   </sodipodi:namedview>
   <style
      type="text/css"
@@ -2507,21 +2503,21 @@
     <image
        sodipodi:absref="/home/frantisek/Pictures/windmill/svg/../foto/futro.png"
        xlink:href="../foto/futro.png"
-       transform="matrix(-0.02145914,0.99976973,-0.99976973,-0.02145914,0,0)"
-       width="18.883848"
-       height="5.8182669"
-       id="image3245"
+       y="-45.868774"
        x="139.19632"
-       y="-45.868774" />
+       id="image3245"
+       height="5.8182669"
+       width="18.883848"
+       transform="matrix(-0.02145914,0.99976973,-0.99976973,-0.02145914,0,0)" />
     <image
        sodipodi:absref="/home/frantisek/Pictures/windmill/svg/../foto/futro.png"
        xlink:href="../foto/futro.png"
-       y="-42.716625"
-       x="228.13728"
-       id="image3248"
-       height="5.8656592"
+       transform="matrix(0,1,-1,0,0,0)"
        width="19.037666"
-       transform="matrix(0,1,-1,0,0,0)" />
+       height="5.8656592"
+       id="image3248"
+       x="228.13728"
+       y="-42.716625" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.1763889;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 15.145302,157.30931 5.012795,-1.88153 -4.981717,-1.78059 4.981717,-1.90351 -4.981717,-1.74113"
@@ -3230,5 +3226,23 @@
        id="path5798"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     id="g3854"
+     transform="matrix(0,-1,1,0,25.674033,310.7966)">
+    <rect
+       style="color:#000000;fill:#984f31;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.1763889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4088"
+       width="1.8236111"
+       height="9.8236113"
+       x="-215.43158"
+       y="105.68758"
+       transform="scale(-1,1)" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:0.1763889;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.41111119, 0.3527778, 0.1763889, 0.3527778;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 214.52014,102.94521 0,14.8855"
+       id="path4090"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
