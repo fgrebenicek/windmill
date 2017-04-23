@@ -12,3 +12,6 @@ print.pdf: $(PRINT_PDF) pdfmarks
 
 # Alternative: 
 #   pdfjoin page_01.pdf page_02.pdf --outfile print.pdf
+
+print_join.pdf: $(PRINT_PDF) pdfmarks
+	pdfjoin --outfile print_join.pdf $(PRINT_PDF)
