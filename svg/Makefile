@@ -14,4 +14,4 @@ print.pdf: $(PRINT_PDF) pdfmarks
 #   pdfjoin page_01.pdf page_02.pdf --outfile print.pdf
 
 print_join.pdf: $(PRINT_PDF) pdfmarks
-	pdfjoin --outfile print_join.pdf $(PRINT_PDF)
+	pdfjoin --pdftitle "Replika vetrneho mlyna Jalubi" --pdfauthor "Frantisek Grebenicek" --pdfsubject "Vystrihovanka" --outfile print_join.pdf $(PRINT_PDF)
